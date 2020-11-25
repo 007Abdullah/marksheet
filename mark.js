@@ -27,12 +27,8 @@ function cals() {
         document.getElementById("Grade").innerText = "B";
     }
     
-    else if (per >= 80 && per <= 90) {
+    else if (per >= 80 && per <= 100) {
         document.getElementById("Grade").innerText = "A";
-    }
-    
-    else if (per >= 100) {
-        document.getElementById("Grade").innerText = "A+1";
     }
     else{
         document.getElementById("Grade").innerText = "Fail";
