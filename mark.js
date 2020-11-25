@@ -18,17 +18,21 @@ function cals() {
     document.getElementById("Obtn").innerHTML = obt;
     let per = T_add * 100 / obt ;
     document.getElementById("Percentage").innerHTML = per.toFixed(2);
-
-    if (per >= 60 && per <= 70)  {
-        document.getElementById("Grade").innerText = "C";
+    
+    if (per >= 80 && per < 100)  {
+        document.getElementById("Grade").innerText = "A+1";
 
     }    
-    else if (per >= 70 && per <= 80) {
+    else if (per >= 70 && per < 80)  {
         document.getElementById("Grade").innerText = "B";
+
+    }    
+    else if (per >= 60 && per < 70) {
+        document.getElementById("Grade").innerText = "C";
     }
     
-    else if (per >= 80 && per <= 100) {
-        document.getElementById("Grade").innerText = "A";
+    else if (per >= 50 && per < 60) {
+        document.getElementById("Grade").innerText = "D";
     }
     else{
         document.getElementById("Grade").innerText = "Fail";
