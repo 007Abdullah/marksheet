@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+body{
+    width: 100%;
+    overflow: auto; 
+
+}
+div{
+    width: 20%;
+    margin: 10px auto 10px auto;
+    background-color: #CCC;
+}
+form{
+    text-align: center;
+    width: 100%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+    font-size: 20px;
+   
+}
+label,span{
+    float:left;
+}
+button{
+    padding: 5px 10px 5px 10px;
+}
+input,#Add,#Obtn,#Percentage,#Grade{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+    margin-left: 10px;
+    float: right;
+}
