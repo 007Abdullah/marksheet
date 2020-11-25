@@ -16,7 +16,7 @@ function cals() {
     let English = parseFloat(document.getElementById("engResult").value);
     let obt = Urdu + Chemistry + Biology + Math + English;
     document.getElementById("Obtn").innerHTML = obt;
-    let per = obt / T_add * 100;
+    let per = T_add * 100 / obt ;
     document.getElementById("Percentage").innerHTML = per.toFixed(2);
 
     if (per >= 60 && per <= 70)  {
